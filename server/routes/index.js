@@ -1,0 +1,20 @@
+import express from "express";
+import adminRoutes from "./adminroutes.js";
+import applicationRoutes from "./applyroutes.js";
+import registerRoutes from "./registeroutes.js";
+import formSetterRoutes from "./formsetterroutes.js";
+import headAdminRoutes from "./headadminroutes.js";
+import formRoutes from "./formRoutes.js";
+import postedFormRoutes from "./postedFormRoutes.js";
+import appliedApplicantRoutes from "./appliedApplicants.js";
+const router = express.Router();
+router.use("/admin", adminRoutes);
+router.use("/headadmin", headAdminRoutes);
+router.use("/formsetter", formSetterRoutes);
+router.use("/applicant", applicationRoutes);
+router.use("/", registerRoutes);
+router.use("/form", formRoutes);
+router.use("/postedform", postedFormRoutes);
+router.use("/applicants", appliedApplicantRoutes);
+
+export default router;

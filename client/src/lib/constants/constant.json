@@ -1,0 +1,18 @@
+{
+  "LOCAL_STORAGE_TOKEN_KEY": "token",
+  "LOGIN_ENDPOINT": "/login",
+  "START_ENDPOINT": "/",
+  "RESTRICTED_ENDPOINT": "/restricted",
+  "REGISTER_ENDPOINT": "/register",
+  "HEAD_ADMIN_DASHBOARD_ENDPOINT": "/headAdmin/dashboard",
+  "ADMIN_DASHBOARD_ENDPOINT": "/admin/dashboard",
+  "GITHUB_USERS_ENDPOINT": "/users",
+  "GITHUB_REPOS_ENDPOINT": "/repos",
+  "SUCCESS_ADD_USER": "User Added Successfully",
+  "SUCCESS_EDIT_USER": "User Edited Successfully",
+  "SUCCESS_DELETE_USER": "User Deleted Successfully",
+  "ERROR_LOGIN": "Login credentials are wrong!!",
+  "ERROR_ADD_USER": "Error In Adding User",
+  "ERROR_EDIT_USER": "Error In Editing User",
+  "ERROR_DELETE_USER": "Error In Deleting User"
+}

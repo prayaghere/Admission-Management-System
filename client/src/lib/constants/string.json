@@ -1,0 +1,32 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error:",
+    "roleHeadAdmin": "headAdmin",
+    "roleAdmin": "admin",
+    "roleApplicant": "applicant",
+    "roleFormSetter": "formSetter",
+    "submit": "Submit",
+    "role": "Role",
+    "selectRole": "Select Role",
+    "welcome": " Hi, Welcome back 👋",
+    "project": "Projects",
+    "user": "Users",
+    "requestDetails": "Project Request Details",
+    "basicInfo": "Basic Information",
+    "accessDenied": "Access Denied",
+    "addUser": "Add User",
+    "current": "current",
+    "upcomming": "upcomming",
+    "forbidden": "This page is restricted. Please log in with the appropriate credentials to continue."
+  },
+  "login": {
+    "loginHeader": "Login",
+    "loginTitle": "Enter your Email and password to login",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "profile": "Profile",
+    "signOut": "Sign Out"
+  }
+}
